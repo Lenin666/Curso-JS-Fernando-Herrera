@@ -1,0 +1,19 @@
+{
+  "name": "webpack-inicial",
+  "version": "1.0.0",
+  "description": "Este es un cascaron de un proyecto de webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack serve --config webpack.config.js --open --port=8080"
+  },
+  "author": "Lenin Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
